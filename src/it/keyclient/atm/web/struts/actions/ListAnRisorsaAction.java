@@ -30,6 +30,7 @@ public class ListAnRisorsaAction extends Action {
 			HttpServletRequest request, HttpServletResponse response) throws Exception {
 	    
 		ActionForward fwd = mapping.findForward("accedi");
+
 	    
 	    return fwd;
 	  }
