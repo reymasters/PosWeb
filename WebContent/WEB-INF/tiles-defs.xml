@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+          "-//Apache Software Foundation//DTD Tiles Configuration 1.3//EN"
+          "http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+<tiles-definitions>
+	<definition name="main" path="tmpl_main.jsp">
+		<put name="docType" value="tmpl_docType4.jsp" />
+		<put name="headerJS" type="string" value=""/>
+		<put name="linkToResetCss" type="string" value=""/>
+		<put name="header" value="tmpl_header_new_menu.jsp" />
+		<put name="footer" value="tmpl_footer.jsp" />
+		<put name="footerJS" value="tmpl_footerJS.jsp" />
+	</definition>
+	<definition name="mainResetCss" path="tmpl_main.jsp">
+		<put name="docType" value="tmpl_docType4.jsp" />
+		<put name="linkToResetCss" type="string" value="css/reset.css"/>
+		<put name="headerJS" type="string" value=""/>
+		<put name="headerResetCss" type="string" value=""/>
+		<put name="header" value="tmpl_header_new_menu.jsp" />
+		<put name="footer" value="tmpl_footer.jsp" />
+		<put name="footerJS" value="tmpl_footerJS.jsp" />
+	</definition>
+	<definition name="main_docType5" path="tmpl_main.jsp">
+		<put name="docType" value="tmpl_docType5.jsp" />
+		<put name="headerJS" type="string" value=""/>
+		<put name="linkToResetCss" type="string" value=""/>
+		<put name="header" value="tmpl_header_new_menu.jsp" />
+		<put name="footer" value="tmpl_footer.jsp" />
+		<put name="footerJS" value="tmpl_footerJS.jsp" />
+	</definition>
+	<definition name="mainOto" path="tmpl_main_oto.jsp">
+		<put name="headerJS" type="string" value=""/>
+		<put name="linkToResetCss" type="string" value=""/>
+		<put name="header" value="tmpl_header_new_menu.jsp" />
+		<put name="footer" value="tmpl_footer.jsp" />
+		<put name="footerJS" value="tmpl_footerJS.jsp" />
+	</definition>
+	<definition name="mainCharts" path="tmpl_main_charts.jsp">
+		<put name="headerJS" type="string" value=""/>
+		<put name="linkToResetCss" type="string" value=""/>
+		<put name="header" value="tmpl_header_new_menu.jsp" />
+		<put name="footer" value="tmpl_footer.jsp" />
+	</definition>
+	<definition name="popup" path="tmpl_popup.jsp">
+		<put name="linkToResetCss" type="string" value=""/>
+		<put name="headerJS" type="string" value=""/>
+		<put name="footerJS" value="tmpl_footerJS.jsp" />
+	</definition>
+</tiles-definitions>
